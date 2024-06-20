@@ -58,7 +58,7 @@ The application offers a streamlined interface for managing legal services, faci
 ## Installation Instructions
 
 1. **Clone the repository**:
-   git clone https://github.com/your-username/brownie-link-services.git
+   git clone https://github.com/ranahussain621/Brownie-Law-Services.git
    cd brownie-link-services
 
 2. **Install Server Dependencies**:
