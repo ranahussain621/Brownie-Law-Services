@@ -4,8 +4,8 @@ const path = require('path');
 
 // Configure AWS SDK with your access keys
 AWS.config.update({
-  accessKeyId: 'AKIA4NAXYQFUGFB3ZFLE',
-  secretAccessKey: 'XeDHKRIKuT1JL/iyJouTvt0CN8JHbtlZo+VAj3+2',
+  accessKeyId: process.env.AWS_ACCESS_ID,
+  secretAccessKey: process.env.AWS_SECRET_KEY,
   region: 'us-east-1', 
 });
 
