@@ -1,0 +1,20 @@
+
+  .nav-link.active {  
+    background-color: #0d0e0f !important;
+    border-radius: 1.5rem;
+  }
+  .nav-link.active span {
+color: #ffffff !important; /* White text color */
+  } 
+
+  .coom-img {
+    height: 70vh;
+  }
+
+  @media (max-width:500px) {
+    .coom-img {
+      height: 30vh;
+    }
+  }
+ 
+ 

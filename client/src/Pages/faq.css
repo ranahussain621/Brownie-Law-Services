@@ -1,0 +1,17 @@
+.faq-image {
+    height: 100vh;
+}
+@media (max-width:620px) {
+    .faq-image{
+        height: 50vh;
+    }
+}
+
+.text-main-faq {
+    font-size: 56px;
+}
+@media (max-width:620px) {
+    .text-main-faq{
+        font-size: 40px;
+    }
+}

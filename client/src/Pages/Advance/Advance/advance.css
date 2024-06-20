@@ -1,0 +1,65 @@
+.head1{
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    color: #000000;
+    padding-top: 10px;
+}
+.recom-text{
+    font-size: 16px;
+    font-weight: 600;
+    color: #008DCD;
+    padding-top: 5px;
+}
+.address-text{
+    font-size: 16px;
+    font-weight: 700;
+    color: #7F7F7F;
+line-height: 24px;
+    padding-top: 10px;
+}
+.addressfull-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+
+    line-height: 24px;
+}
+
+.address-text1{
+    font-size: 30px !important;
+    font-weight: 600 !important;
+    color: #2E2829;
+
+   
+}
+.blue-box{
+    background-color: #E6F6FE;
+    padding: 20px;
+    margin-top: 10px;
+    width: 250px;
+    border-radius: 8px;
+}
+.gray-box{
+    background-color: #F6F7F9;
+    padding: 20px;
+    margin-top: 20px;
+   
+    border-radius: 8px;
+}
+.tex-blue{
+    color: #008DCD;
+    font-size: 16px;
+    font-weight: 600;
+}
+.text-gray{
+    color: #7F7F7F;
+    font-size: 16px;
+    font-weight: 600;
+}
+.addressfull-text2{
+    font-size: 13px;
+    font-weight: 400;
+    color: #000000;
+    padding-top: 5px;
+    line-height: 24px;
+}

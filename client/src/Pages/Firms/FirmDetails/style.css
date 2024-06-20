@@ -1,0 +1,31 @@
+/* ReviewStar.css */
+.star {
+    font-size: 33px; /* Adjust the size of the stars */
+  }
+ 
+  .star {
+    color: gold; /* Change the color of filled stars */
+  }
+  
+  .news-details-img {
+    height: 400px;
+  }
+
+  .details-text{
+    font-size: 36px;
+  }
+  
+  .details-desc{
+    font-size: 20px;
+  }
+  @media (max-width:620px) {
+    .news-details-img {
+      height: 200px;
+    }
+    .details-text{
+      font-size: 24px;
+    }
+    .details-desc{
+      font-size: 16px;
+    }
+  }

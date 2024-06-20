@@ -1,0 +1,45 @@
+@media (max-width: 768px) {
+    .col-md-6 .imgg_1 {
+        display: none;
+    }
+
+    .hero_img {
+        height: 340px !important;
+
+    }
+
+    .about_heading {
+        font-size: 30px !important;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .about_para {
+        font-size: 17px !important;
+        color: #63666A;
+        text-align: justify;
+    }
+    .img-responsive{
+        height: 375px;
+
+    }
+}
+
+.about_heading {
+    font-size: 56px;
+    margin-bottom: 10px;
+}
+
+.about_para {
+    font-size: 24px;
+    color: #63666A;
+    text-align: justify;
+}
+
+.col-md-6 .imgg_1 {
+    height: 500px;
+}
+
+.about_img {
+    height: 375px;
+}

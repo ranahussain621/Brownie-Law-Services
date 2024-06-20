@@ -1,0 +1,19 @@
+.register-form-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media (min-width: 600px) {
+    .register-form-wrapper {
+      flex-direction: row;
+    }
+  
+    .form-content {
+      width: 50%;
+    }
+  
+    .image-content {
+      width: 50%;
+    }
+  }
+  

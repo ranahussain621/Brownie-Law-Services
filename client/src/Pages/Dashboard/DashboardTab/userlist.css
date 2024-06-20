@@ -1,0 +1,15 @@
+.pagination .page-item.active .page-link {
+    background-color: rgb(12, 13, 14);
+    border-color: rgb(12, 13, 14);
+    color: #fff; 
+    font-weight: 600;
+    border-radius: 5px;
+   
+  }
+
+  .pagination .page-link {
+    background-color: #fff;
+    border-color: rgb(12, 13, 14);
+    color: rgb(12, 13, 14); 
+
+  }

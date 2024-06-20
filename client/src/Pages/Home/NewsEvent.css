@@ -1,0 +1,100 @@
+.subscription-card {
+    transform: scale(1);
+    transition: transform 0.8s ease;
+   
+  } 
+
+  .news-main-image{
+    height: 380px;
+  }
+  @media (max-width:620px) {
+    .news-main-image{
+      height: 300px;
+    }
+  }
+  
+  .subscription-card:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+  }
+
+  .grid-divs {
+    margin: 20px auto;
+  }
+
+
+  .overlay-div {
+    transform: scale(1);
+    transition: transform 0.5s ease; 
+  }
+  
+  .overlay-div:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    z-index: 999;
+  
+  }
+
+  .filled-circle {
+    background-color: red; 
+  }
+  
+  
+  .owner-name-overlay {
+    position: absolute;
+    top: -17%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+    transition: opacity 0.3s ease;
+  }
+  
+  .pagination {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .page-item {
+    margin: 0 5px; 
+  }
+  
+  .page-link {
+    text-decoration: none; 
+  }
+  
+  .bullet {
+    font-size: 50px; 
+    line-height: 1;
+  
+  }
+  
+
+  @media (max-width:690px) {
+    .grid-divs {
+      margin:2rem auto
+    }
+  }
+  @media (max-width:900px) {
+    .grid-divs {
+      margin:2rem auto !important;
+    }
+  }
+
+
+  .padding-main {
+    margin-top: 2px;
+  }
+
+  @media (max-width:600px) {
+    .padding-main {
+      margin-top: 1rem; 
+    }
+    .css-195gn0d {
+      margin-top: 1rem;
+    }
+  }
+

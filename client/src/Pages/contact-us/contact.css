@@ -1,0 +1,103 @@
+/* .container {
+    position: relative;
+    overflow: hidden;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+} */
+
+.tex-lg {
+    font-size: 56px;
+  }
+  
+  /* Define styles for small screens */
+  @media (max-width: 576px) {
+    .tex-lg {
+      font-size: 40px;
+    }
+  }
+.contact-image {
+    height: 80vh;
+}
+@media (max-width:620px) {
+    .contact-image{
+        height: 50vh;
+    }
+}
+@media (max-width:1280px) {
+    .contact-image{
+        height: 60vh;
+    }
+}
+
+.contact-child-image{
+    display: block;
+}
+@media (max-width:620px) {
+    .contact-child-image{
+        display: none;
+    }
+}
+.contact_banner{
+    width: 100%;
+}
+/* Style the text */
+.title {
+    
+    position: relative;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    max-width: 800px;
+
+}
+.title .get-in-touch{
+    font-weight: bold;
+    /* left: 120px; */
+    font-family: sans-serif;
+    color: black;
+    position: relative;
+    
+}
+/* Media Query for Mobile Responsive */
+@media screen and (max-width: 768px) {
+    .title {
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 16px;
+        margin-left: -56px !important;
+        margin-right: 158px !important;
+       
+    }
+    .form_style{
+        /* margin-top: -210px; */
+        margin-top: 40px;
+    }
+    .contact_heading {
+        font-size: 30px !important;
+        margin-bottom: 10px;
+    }
+    
+    .contact_para {
+        /* font-size: 24px; */
+        color: #63666A;
+        text-align: justify;
+    }
+
+}
+.contact_heading {
+    font-size: 56px;
+    margin-bottom: 10px;
+}
+
+.contact_para {
+    /* font-size: 24px; */
+    color: #63666A;
+    text-align: justify;
+}

@@ -1,0 +1,41 @@
+.head1{
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    color: #000000;
+    padding-top: 10px;
+}
+.recom-text{
+    font-size: 16px;
+    font-weight: 600;
+    color: #008DCD;
+    padding-top: 5px;
+}
+.address-text{
+    font-size: 16px;
+    font-weight: 700;
+    color: #7F7F7F;
+line-height: 24px;
+    padding-top: 10px;
+}
+.addressfull-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+
+    line-height: 24px;
+}
+
+.address-text1{
+    font-size: 30px !important;
+    font-weight: 600 !important;
+    color: #2E2829;
+
+   
+}
+.addressfull-text2{
+    font-size: 13px;
+    font-weight: 400;
+    color: #000000;
+    padding-top: 5px;
+    line-height: 24px;
+}

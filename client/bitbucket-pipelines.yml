@@ -1,0 +1,15 @@
+image: node:18
+pipelines:
+  branches:
+    reviews:
+      - step:
+          name: Build and Deploy
+          caches:
+            - node
+          script:
+            - apt-get update && apt-get install -y awscli
+            - sed -i '/const baseURL/ s#const baseURL = .*$#const baseURL = '\''https://api.mylawyers.asia/'\'';#' src/_redux/axios/axios.js
+            - npm install --force
+            - CI=false npm run build
+            - aws s3 sync build/ s3://${DEPLOYED_S3_BUCKET_NAME}/
+            - aws cloudfront create-invalidation --distribution-id $DISTRIBUTION_ID --paths '/*'

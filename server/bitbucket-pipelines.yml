@@ -1,0 +1,16 @@
+image: node:20
+
+pipelines:
+  branches:
+    master:
+      - step:
+          name: Build and Deploy
+          caches:
+            - node
+          script:
+            - npm install --force
+            - tar -czvf patsy-backend.tar.gz ./* .[^.]*
+            - ssh "$SSH_USER@$SSH_SERVER" "sudo mkdir -p /var/www/html/patsy-backend2/"
+            - scp patsy-backend.tar.gz "$SSH_USER@$SSH_SERVER:/var/www/html/patsy-backend2/"
+            - ssh "$SSH_USER@$SSH_SERVER" "cd /var/www/html/patsy-backend2/ && sudo tar -xzf patsy-backend.tar.gz && sudo rm -rf patsy-backend.tar.gz" 
+            - ssh "$SSH_USER@$SSH_SERVER" "sudo rm -rf /var/www/html/patsy-backend && mv /var/www/html/patsy-backend2 /var/www/html/patsy-backend && cd /var/www/html/patsy-backend && PATH=\$PATH:/root/.nvm/versions/node/v20.12.1/bin/ pm2 restart 0 --update-env"

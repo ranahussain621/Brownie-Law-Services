@@ -1,0 +1,82 @@
+.dashboard-active{
+    border: 0px !important;
+}
+.nav-pills .user-nav-link{
+    background-color: #0d0e0f;
+    color: #fff;
+    font-weight: bold;
+}
+.nav-pills .user-nav-link.active, .nav-pills .show>.user-nav-link > p.title {
+    background-color: #F8F8F8 !important;
+    color: #0d0e0f;
+    border: 0px !important;
+  }
+
+.nav-pills .user-nav-link.active p.title { 
+    background-color: #2E2829;
+    color: #ffffff;
+  }
+.sidebar-area{
+    background-color: white;
+}
+
+.right-bar {
+margin-left: 16.66667%;
+}
+
+@media screen and (max-width: 1246px){
+  .right-bar {
+    margin-left: 19%;
+  }
+}
+
+@media screen and (max-width: 1222px){
+  .right-bar {
+    margin-left: 20.5%;
+  }
+}
+
+
+@media screen and (max-width: 1204px){
+  .right-bar {
+    margin-left: 22%;
+  }
+}
+
+
+@media screen and (max-width: 1188px){
+  .right-bar {
+    margin-left: 23%;
+  }
+}
+
+
+@media screen and (max-width: 1178px){
+  .right-bar {
+    margin-left: 24%;
+  }
+}
+@media screen and (max-width: 990px){
+    .nav-pills .user-nav-link{
+        background-color: white;
+        color: #0e0e0e;
+        font-weight: bold;
+        font-size: 12px;
+    }
+}
+
+.sideBar-icon{
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 575px) {
+    .sideBar-icon {
+      display: block;
+    }
+  
+    .sidebar-area:not(.active) .user-nav-item{
+      display: none;
+    }
+  }
